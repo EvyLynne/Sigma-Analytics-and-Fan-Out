@@ -8,7 +8,7 @@ https://quickstarts.sigmacomputing.com/guide/tables_fan_traps/index.html#2, show
 <ol>
   <li>Power BI accurately connected the tables, but did not set up the relationship between events and order_header as one to many.  I manually updated it.</li>
   <li>I created the LEFT OUTER JOIN in Power Query using Merge Queries as new and called the resulting table, "Step 3 Join" when I expanded the join, I took all the columns including the duplicates as in the tutorial - this creates a denormalized table. </li>
-  <li>Third item</li>
+  <li>I once again chose Power Query Merge Queries as new for the second join which pulled in order_details to the new table so as to not corrupt prior data. </li>
 </ol>
 
 
