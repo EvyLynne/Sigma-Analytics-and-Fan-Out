@@ -15,6 +15,7 @@ https://quickstarts.sigmacomputing.com/guide/tables_fan_traps/index.html#2, show
   <li>This join required joining order_details to the order_header using the orderid for those tables. Intrestingly, this triggered a Privacy Level warning in PBI.  I checked ignore. </li>
   <li>Once again, I removed automatic relationships and autosum.  I named this table, "Step 3 2nd Join"</li>
   <li>I also hid order_header.event_id column and order_details.order_id column from final report.</li>
+  <li>When I duplicated step #4, I found that the price column was missing.  I added a conditional column based on product and made up a value for cracker jacks.</li>
 </ol>
 
 
